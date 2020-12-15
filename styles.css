@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+.App {
+  text-align: center;
+  margin: 0;
+  font-family: "Russo One", sans-serif;
+}
+
+:root {
+  --primary-color: rgb(133, 161, 220);
+  --secondary-color: #41b383;
+  --input-color: #e27d60;
+}
+
+body {
+  border: 1rem solid black;
+  margin: 0;
+}
+
+input {
+  width: 80%;
+  min-width: 180px;
+  padding: 0.3rem;
+  /* padding: 1rem; */
+  /* color: red; */
+
+  font-family: cursive;
+  /* border-color: red;
+  border-radius: 25px; */
+}
+
+span {
+  padding: 1rem;
+  font-size: 70px;
+}
+
+h1 {
+  color: #fff;
+  /* color: #800000; */
+  /* background-color: #fd5602; */
+  background-color: #090909;
+  font-family: "Abril Fatface", cursive;
+  margin: 0;
+  padding: 2rem;
+  letter-spacing: 2px;
+}
+h1 span {
+  font-size: 50px;
+  margin-top: 0;
+}
+
+.main-div {
+  /* background-color: var(--primary-color); */
+  background-color: white;
+  padding: 1rem;
+}
+
+.flag-logo {
+  /* background-color: var(--input-color); */
+  background-color: white;
+  padding: 2rem 3rem;
+  min-width: 200px;
+}
+
+.country {
+  /* color: var(--input-color); */
+}
+
+footer {
+  /* background-color: var(--secondary-color); */
+  background-color: white;
+  color: #800000;
+  text-align: center;
+  line-height: 2;
+  margin: 0;
+}
+
+.footer-div {
+  margin: auto;
+  margin-bottom: 3rem;
+  width: 60%;
+  min-width: 200px;
+  /* padding: 1rem 0; */
+  font-size: 15px;
+}
+
+hr {
+  width: 60%;
+  margin-bottom: -16px;
+}
+
+strong {
+  display: block;
+  /* color: var(--input-color); */
+  color: #333333;
+  padding: 1rem;
+  font-size: 10px;
+}
+
+strong a {
+  text-decoration: none;
+  /* color: #800000; */
+  color: black;
+}
